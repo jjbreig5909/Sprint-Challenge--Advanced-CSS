@@ -1,20 +1,32 @@
 // Navigation code here
 .navigation-bar{
     background-color: @nav-bg;
+    opacity: .9;
     border: 1px solid @nav-border;
     color: @nav-font;
     display: flex;
     flex-direction: column;
     align-items: center;
+    position: fixed;
+    top:0;
+    width: 100%;
+    @media @phone {
+        width: 100vw;
+
+    }
     h1{
         font-size: 4rem;
         margin: 20px 0;
     }
     nav{
         .flex();
-        width: 30%;
+        width: 500px;
         justify-content: space-between;
         padding-bottom: 20px;
+        @media @phone {
+            width: 80%;
+            padding-bottom: 10px;
+        }
 
         a{
             text-decoration: none;
