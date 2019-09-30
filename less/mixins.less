@@ -2,3 +2,16 @@
 .flex{
     display:flex;
 }
+
+.heavy-font{
+    color: @nav-font;
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+.btn(@justify, @align){
+    .flex();
+    justify-content: @justify;
+    align-items: @align;
+    
+}

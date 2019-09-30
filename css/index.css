@@ -1,6 +1,11 @@
 .flex {
   display: flex;
 }
+.heavy-font {
+  color: #454A59;
+  font-size: 1.8rem;
+  font-weight: 700;
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -241,6 +246,19 @@ footer {
 }
 .home .walk .walk-text p {
   margin-bottom: 26px;
+}
+.home .walk .walk-text .btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #454A59;
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: white;
+  background-color: #22283A;
+  padding: 10px 15px 10px 15px;
+  width: 30%;
+  border-radius: 5px;
 }
 .home .walk .walk-img {
   width: 46%;
