@@ -13,5 +13,12 @@
     .flex();
     justify-content: @justify;
     align-items: @align;
-    
+    border: 1px solid white;
+    &:hover {
+        background-color: white;
+        color: @button-bg;
+        cursor: pointer;
+        border: 1px solid @button-bg;
+        transition: .4s;
+    }
 }
